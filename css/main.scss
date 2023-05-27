@@ -37,6 +37,12 @@
 $theme-primary: #7E57C2;
 $theme-dark: #D586FF;
 
+header {
+  background-size: contain !important;      
+}
+
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",
