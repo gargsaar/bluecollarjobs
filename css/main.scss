@@ -42,6 +42,45 @@ header {
 }
 
 
+//custom code - highlighter begins
+.container {
+  line-height: 1.4;
+  text-align: center;
+  padding: 44px;
+  color: #333;
+}
+
+h1 {
+  font-size: 50px !important;
+}
+
+p {
+  font-size: 18px !important;
+}
+
+.highlight-container, .highlight {
+  position: relative;
+}
+
+.highlight-container {
+  display: inline-block;
+}
+.highlight-container:before {
+  content: " ";
+  display: block;
+  height: 90%;
+  width: 100%;
+  margin-left: -3px;
+  margin-right: -3px;
+  position: absolute;
+  background: #ffd500;
+  transform: rotate(2deg);
+  top: -1px;
+  left: -1px;
+  border-radius: 20% 25% 20% 24%;
+  padding: 10px 3px 3px 10px;
+}
+//custom code - highlighter ends
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
